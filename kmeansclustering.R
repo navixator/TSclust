@@ -1,5 +1,6 @@
 #Load necessary packages
 library(cluster)
+library(TSclust)
 
 #Read original listings datatset
 listings_dataset <- read.csv("~/C2C churn proposal/Time Series Clustering/listings_dataset.csv")
