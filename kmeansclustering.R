@@ -32,6 +32,6 @@ summary(sil.km.4clust)
 plot(sil.km.4clust, col = 1:4, border = NA)
 
 sil.km.5clust <- silhouette(km5cluster$cluster, dist.eucl)
-summary(sil.km.4clust)
-plot(sil.km.4clust, col = 1:5, border = NA)
+summary(sil.km.5clust)
+plot(sil.km.5clust, col = 1:5, border = NA)
 
